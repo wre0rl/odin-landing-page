@@ -44,16 +44,16 @@ a {
   gap: 12px;
 }
 
-.hero .text {
+.hero .hero-content {
   max-width: 400px;
 }
 
-.hero .text p {
+.hero .hero-content p {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.hero .text button {
+.hero .hero-content button {
   padding: 6px;
   font-size: 16px;
 }
@@ -65,7 +65,17 @@ a {
 
 /** Main **/
 main {
-  
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  max-width: 400px;
 }
 
 /** Footer **/
