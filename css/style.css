@@ -20,11 +20,6 @@ header {
   padding: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .navbar, .hero {
   display: flex;
   align-items: center;
@@ -44,6 +39,11 @@ a {
   gap: 12px;
 }
 
+.navbar .menu a {
+  text-decoration: none;
+  color: white;
+}
+
 .hero .hero-content {
   max-width: 400px;
 }
@@ -60,7 +60,6 @@ a {
 
 .hero img {
   max-width: 45%;
-  border: 2px solid;
 }
 
 /** Main **/
@@ -74,13 +73,42 @@ main {
   gap: 20px;
 }
 
-.card {
+.cards .card {
   max-width: 400px;
+  border: 1px solid;
+}
+
+.cards .card .card-content {
+  padding: 8px;
+}
+
+.cards .card .card-image {
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.cards .card .card-image img {
+  max-height: 200px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(85.12deg, rgba(185, 185, 241, 0.2) 0%, rgba(84, 132, 234, 0.2) 56.29%, rgba(58, 142, 137, 0.2) 99.99%);
+  padding: 0 50px 0;
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.banner-image img {
+  max-width: 450px;
 }
 
 /** Footer **/
 footer {
   background-color: #1F2937;
   color: white;
+  padding: 30px;
 }
 
