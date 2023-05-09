@@ -54,7 +54,7 @@ header {
 }
 
 .hero .hero-content button {
-  padding: 6px;
+  padding: 8px;
   font-size: 16px;
 }
 
@@ -70,11 +70,12 @@ main {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .cards .card {
-  max-width: 400px;
+  max-width: 300px;
   border: 1px solid;
 }
 
@@ -96,7 +97,6 @@ main {
   align-items: center;
   background: linear-gradient(85.12deg, rgba(185, 185, 241, 0.2) 0%, rgba(84, 132, 234, 0.2) 56.29%, rgba(58, 142, 137, 0.2) 99.99%);
   padding: 0 50px 0;
-  max-width: 85%;
   margin: auto;
   margin-top: 50px;
 }
@@ -109,6 +109,6 @@ main {
 footer {
   background-color: #1F2937;
   color: white;
-  padding: 30px;
+  padding: 20px 40px;
 }
 
